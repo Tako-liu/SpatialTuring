@@ -15,7 +15,6 @@ Unlike traditional tools that rely on morphological clustering or simple autocor
 
 ## ⚡ Key Features
 
-* **🚀 GPU-Accelerated Engineering**: Built on `torch.nn.Conv2d`, turning hours of CPU computation into seconds of GPU inference. Capable of processing 1M+ cells in real-time.
 * **🧬 Mechanism-First Discovery**: Moves beyond "clustering" to identify the underlying *generative rules* of tissue patterning.
 * **📐 Scale-Invariant Logic**: Uses a topological DoG (Difference of Gaussians) filter to detect patterns regardless of tissue deformation or rotation.
 * **🔌 Ecosystem Compatible**: Seamlessly integrates with [Scanpy](https://scanpy.readthedocs.io/) and `AnnData`.
@@ -65,18 +64,6 @@ print(candidates_u[['gene', 'peak_score']].head())
 
 ```
 
----
-
-## 🖼️ Gallery
-
-### Visualizing the Hidden Logic
-
-SpatialTuring applies a computational lens to separate biological logic from sequencing noise.
-
-* **Left (Raw Input):** Gene expression with dropout and technical noise.
-* **Right (Processed):** The extracted Turing field using the DoG filter, revealing the underlying periodic structure.
-
----
 
 ## 🔬 Theoretical Foundation
 
@@ -100,15 +87,6 @@ Contributions are welcome! If you are interested in improving the algorithm or a
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
-## 📄 Citation
-
-If you use SpatialTuring in your research, please cite:
-
-> **[Your Name]**, et al. (2025). *SpatialTuring: Unmasking reaction-diffusion logic in spatial transcriptomics.* GitHub Repository.
-
----
 
 **License**: MIT
 **Maintainer**: [Tako-liu](https://www.google.com/search?q=https://github.com/Tako-liu)
